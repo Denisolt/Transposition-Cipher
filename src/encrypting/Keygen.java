@@ -33,8 +33,6 @@ public class Keygen
             key[i] = aplhabet[i];
         }
         Random rgen = new Random();		
-        for(int k=0; k<=1000; k++)
-        {
             for (int i=0; i<key.length; i++)
               {
 	int randomPosition = rgen.nextInt(key.length);
@@ -42,7 +40,6 @@ public class Keygen
 	key[i] = key[randomPosition];
                   key[randomPosition] = temp;
                 }
-        }
         //array Key is generated and shuffled 
         PrintWriter filesWrited = new PrintWriter("key.txt");
         for(int i=0; i<key.length;i++)//for debugging purposes
