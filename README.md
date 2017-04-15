@@ -18,6 +18,6 @@ Use any JAVA IDE (Netbeans, Eclipse, BlueJ) in order to run or command line:
 cd Cesar-Cypher/src/encrypting/
 javac Encrypting.java
 java Encrypting.java
-
 ```
 
+This project is an assignment for Graduate Cryptography Class
