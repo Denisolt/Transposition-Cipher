@@ -1,7 +1,7 @@
-## Cesar-Cypher
+## Transposition cipher
 Date Created: 09/18/2016
 
-Cesar-Cypher is a tool to decrypt/encrypt information. Caesar cipher (or Caesar code) is a shift cipher, one of the most easy and most famous encryption systems. It uses the substitution of a letter by another one further in the alphabet.
+Wiki: In cryptography, a transposition cipher is a method of encryption by which the positions held by units of plaintext (which are commonly characters or groups of characters) are shifted according to a regular system, so that the ciphertext constitutes a permutation of the plaintext. That is, the order of the units is changed (the plaintext is reordered). Mathematically a bijective function is used on the characters' positions to encrypt and an inverse function to decrypt.
 
 ## Project Description:
 Encrypting and decrypting information using specific generated key in Java.
